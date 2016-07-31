@@ -1,0 +1,1127 @@
+body {
+    font: 14px / 1.5 "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+    color: #333;
+}
+
+body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, table, thead, tbody, tfoot, tr, th, td, caption, form, input, select, textarea, img, span, i, b, em, strong, font, sub, sup, s, u, a {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+input, select, img {
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear:before, .clear:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.con1226 {
+    margin: 0 auto;
+    width: 1226px;
+}
+
+.header {
+    height: 140px;
+    position: relative;
+    z-index: 2000;
+}
+
+.subNav {
+    width: 100%;
+    min-width: 1226px;
+    height: 40px;
+    background-color: #333333;
+}
+
+.subNav li {
+    float: left;
+    line-height: 40px;
+    font-size: 12px;
+}
+
+.subNav li a {
+    color: #b0b0b0;
+}
+
+.subNav li a:hover {
+    color: #fff;
+}
+
+.subNav .line {
+    padding: 0 10px;
+    color: #424242;
+}
+
+.login {
+    float: right;
+    width: 211px;
+}
+
+.cart {
+    float: left;
+    width: 120px;
+    padding-left: 20px;
+    height: 40px;
+    text-align: center;
+    position: relative;
+}
+
+.cart span {
+    display: inline-block;
+    width: 20px;
+    height: 14px;
+    background: url("../images/icon.png") no-repeat;
+    vertical-align: middle;
+}
+
+.cart a {
+    display: block;
+    height: 40px;
+    background: #424242;
+    color: #b0b0b0;
+    line-height: 40px;
+    font-size: 12px;
+    position: relative;
+    z-index: 2;
+}
+
+.cart a:hover{
+    background: #fff;
+    color: #f60;
+}
+.cart a:hover span{
+    background-position: 0 -24px;
+}
+.cart .hidden {
+    overflow: hidden;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    width: 316px;
+    height: 0;
+    line-height: 98px;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .15);
+    z-index: 1;
+}
+
+.cart:hover a {
+    color: #f60;
+    background: #fff;
+}
+
+.cart:hover a span {
+    background-position: 0 -24px;
+}
+
+.cart:hover .hidden {
+    height: 98px;
+    transition: all 0.3s linear 0s;
+}
+
+.nav h1 {
+    float: left;
+    padding: 22px 20px 0 0;
+    width: 55px;
+    height: 55px;
+}
+
+.nav h1 a {
+    display: block;
+    width: 55px;
+    height: 55px;
+    text-indent: -999em;
+    background: url("../images/icon.png") no-repeat;
+    background-color: #ff6700;
+    background-position: -158px 15px;
+}
+
+.nav .gif {
+    float: left;
+    padding: 16px 25px 0 0;
+    width: 150px;
+    height: 62px;
+}
+
+.nav .gif img {
+    width: 150px;
+    height: 62px;
+}
+
+.nav .navTop {
+    float: left;
+    padding-right: 30px;
+    font-size: 16px;
+    line-height: 100px;
+}
+
+.nav .navTop .navLink {
+    color: #333;
+}
+
+.nav .navTop .navLink:hover {
+    color: #ff6700;
+}
+
+.nav .fg {
+    display: none;
+    position: absolute;
+    width: 100%;
+    min-width: 1226px;
+    height: 4px;
+    background-color: #fff;
+    top: 136px;
+    left: 0;
+    z-index: 1;
+}
+
+.nav .navList {
+    overflow: hidden;
+    position: absolute;
+    top: 140px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    min-width: 1226px;
+    height: 0px;
+    background-color: #fff;
+}
+
+.nav .navList ul {
+    padding-top: 36px;
+}
+
+.nav .navList ul li {
+    float: left;
+    width: 203px;
+    text-align: center;
+}
+
+.nav .navList ul li img {
+    width: 160px;
+    height: 110px;
+}
+
+.nav .navList ul li h4 {
+    padding-top: 20px;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: normal;
+}
+
+.nav .navList ul li h4 a {
+    color: #333;
+}
+
+.nav .navList ul li p {
+    line-height: 14px;
+    font-size: 12px;
+    color: #ff6700;
+}
+
+.nav .navList ul .line {
+    width: 1px;
+    height: 100px;
+    background-color: #e0e0e0;
+}
+
+.navTop:hover .navList {
+    height: 229px;
+    border-top: 1px solid #000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .15);
+    transition: all 0.3s 0.2s;
+}
+
+.navTop:hover .fg {
+    display: block;
+}
+
+.nav .ser {
+    float: right;
+    position: relative;
+    padding-top: 25px;
+    width: 296px;
+}
+
+.nav .ser input[type=text] {
+    position: absolute;
+    left: 0;
+    border: 1px solid #e0e0e0;
+    padding: 0 15px 0 10px;
+    width: 218px;
+    height: 48px;
+    outline: none;
+}
+
+.nav .ser input[type=text]:focus {
+    border-color: #ff6700;
+}
+
+.nav .ser input[type=button] {
+    position: absolute;
+    right: 0;
+    border: 1px solid #e0e0e0;
+    width: 52px;
+    height: 50px;
+    background: url("../images/icon.png") no-repeat;
+    background-position: -25px 15px;
+    background-color: #fff;
+    outline: none;
+}
+
+.nav .ser input[type=button]:hover {
+    background-position: -25px -27px;
+    background-color: #ff6700;
+    border-color: #ff6700;
+    transition: all 0.3s;
+}
+
+.nav .ser ul {
+    display: none;
+    position: absolute;
+    top: 74px;
+    left: 0;
+    border: 1px solid #ff6700;
+    width: 243px;
+    background-color: #fff;
+}
+
+.nav .ser ul li a {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 15px;
+    color: #333;
+    font-size: 12px;
+}
+
+.nav .ser ul li a span {
+    float: right;
+    color: #999;
+}
+
+.nav .ser .link {
+    position: absolute;
+    top: 40px;
+    right: 62px;
+}
+
+.nav .ser .link a {
+    margin-left: 5px;
+    padding: 3px 5px;
+    font-size: 12px;
+    color: #333;
+    background-color: #eeeeee;
+}
+
+.nav .ser .link a:hover {
+    color: #fff;
+    background-color: #ff6700;
+    transition: all .3s;
+}
+
+.nav .ser input[type=text]:focus {
+    z-index: 1;
+}
+
+/*nav end*/
+.banner {
+    position: relative;
+    height: 460px;
+}
+
+.banner .bannerImg li {
+    display: none;
+}
+
+.banner .bannerImg .on {
+    display: block;
+}
+
+.banner .bannerImg li img {
+    width: 1226px;
+    height: 460px;
+}
+
+.banner .tabLine {
+    position: absolute;
+    bottom: 25px;
+    right: 35px;
+}
+
+.banner .tabLine li {
+    float: left;
+    margin-left: 10px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 2px solid #aeaeae;
+    background-color: #8c8c8c;
+    cursor: pointer;
+}
+
+.banner .tabLine li:hover, .banner .tabLine .on {
+    background-color: #fff;
+    transition: all .3s;
+}
+
+.subList {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 0;
+    width: 234px;
+    height: 420px;
+    background-color: #333;
+    background-color: rgba(0, 0, 0, .6);
+    z-index: 1000;
+}
+
+.subList .parent {
+    padding: 0 24px 0 30px;
+    height: 42px;
+    line-height: 42px;
+}
+
+.subList .parent .parentLink {
+    font-size: 14px;
+    color: #fff;
+}
+
+.subList .parent img {
+    float: right;
+    margin-top: 14px;
+    width: 8px;
+    height: 12px;
+    background: url("../images/icon.png") no-repeat;
+    background-position: -80px 0;
+}
+
+.subList .parent:hover {
+    background-color: #ff6700;
+}
+
+.subList .parent .son {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 234px;
+    border: 1px solid #e0e0e0;
+    border-left: 0;
+    height: 458px;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, .18);
+    z-index: 1;
+}
+
+.subList .parent .son ul {
+    float: left;
+    width: 235px;
+    padding: 0 10px 0 20px;
+}
+
+.subList .parent .son ul li {
+    height: 77px;
+}
+
+.subList .parent .son ul li .img {
+    padding: 18px 0;
+    display: block;
+    float: left;
+    color: #333;
+}
+
+.subList .parent .son ul li .img img {
+    width: 40px;
+    height: 40px;
+}
+
+.subList .parent .son ul li .img:hover {
+    color: #ff6700;
+}
+
+.subList .parent .son ul li .text {
+    display: block;
+    float: right;
+    margin: 26px 10px 0 0;
+    width: 58px;
+    height: 22px;
+    border: 1px solid #ff6700;
+    color: #ff6700;
+    text-align: center;
+    line-height: 22px;
+    font-size: 12px;
+}
+
+.subList .parent .son ul li .text:hover {
+    background-color: #ff6700;
+    color: #fff;
+    transition: all .3s;
+}
+
+
+
+.subList .parent:hover .son {
+    display: block;
+}
+
+.banner .btnL, .banner .btnR {
+    position: absolute;
+    top: 195px;
+    background: url("../images/icon-slides.png") no-repeat;
+    background-position: -83px 0;
+    width: 41px;
+    height: 69px;
+    cursor: pointer;
+    z-index: 500;
+}
+
+.banner .btnL {
+    left: 234px;
+}
+
+.banner .btnL:hover {
+    background-position: 0 0;
+}
+
+.banner .btnR {
+    right: 0;
+    background-position: -125px 0;
+}
+
+.banner .btnR:hover {
+    background-position: -42px 0;
+}
+
+.subCon {
+    padding-top: 14px;
+}
+
+.subCon .conL {
+    float: left;
+    padding: 3px;
+    width: 228px;
+    height: 164px;
+    background: #5f5750;
+}
+
+.subCon .conL li {
+    float: left;
+    position: relative;
+    width: 70px;
+    height: 65px;
+    padding: 17px 3px 0;
+    text-align: center;
+}
+
+.subCon .conL li span {
+    display: inline-block;
+    width: 20px;
+    height: 25px;
+    background: url("../images/icon2.png") no-repeat;
+    vertical-align: top;
+}
+
+.subCon .conL li i {
+    display: block;
+    font-style: normal;
+    color: #cdcac8;
+    font-size: 12px;
+}
+
+.subCon .conL li:before, .subCon .conL li:after {
+    position: absolute;
+    display: block;
+    content: "";
+    background: #fff;
+}
+
+.subCon .conL li:before {
+    width: 64px;
+    height: 1px;
+    top: 0;
+    left: 6px;
+}
+
+.subCon .conL li:after {
+    width: 1px;
+    height: 70px;
+    top: 6px;
+    left: 0;
+}
+
+.subCon .conL .noT:before {
+    display: none;
+}
+
+.subCon .conL .noL:after {
+    display: none;
+}
+
+.subCon .conL li .list2 {
+    background-position: -58px 0;
+}
+
+.subCon .conR {
+    float: right;
+}
+
+.subCon .conR a {
+    float: left;
+    width: 316px;
+    height: 170px;
+    margin-left: 14px;
+}
+
+.subCon .conR a:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+}
+
+.subCon .conR a img {
+    width: 316px;
+    height: 170px;
+}
+
+.content {
+    padding-top: 50px;
+    background: #f5f5f5;
+}
+
+.content ul {
+    margin-left: -14px;
+}
+
+.content li {
+    position: relative;
+    float: left;
+    margin: 0 0 14px 14px;
+    width: 234px;
+    height: 300px;
+    background: #fff;
+    text-align: center;
+}
+
+.content li span {
+    position: absolute;
+    top: 0;
+    left: 85px;
+    width: 66px;
+    height: 22px;
+    text-align: center;
+    line-height: 22px;
+    background: #83c44e;
+    color: #fff;
+    font-size: 12px;
+}
+
+.content li .img img {
+    padding-top: 34px;
+    width: 150px;
+    height: 150px;
+}
+
+.content li h4 {
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.content li h4 a {
+    color: #333;
+}
+
+.content li .rmb {
+    padding: 10px 5px 18px;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.content li .rmb b {
+    color: #ff6700;
+}
+
+.content li .rmb s {
+    color: #999;
+}
+
+.content li .sum {
+    font-size: 12px;
+    color: #999;
+}
+
+.content li:hover {
+    top: -1px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .6);
+    transition: all 0.3s;
+}
+
+.content li .hidden {
+    overflow: hidden;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 234px;
+    height: 0px;
+    background: #ff6700;
+    color: #fff;
+    font-size: 14px;
+}
+
+.content li:hover .hidden {
+    height: 150px;
+    transition: all .4s;
+}
+
+.content .def:hover {
+    box-shadow: none;
+    top: 0;
+    height: 297px;
+    transition: all 0.5s;
+}
+
+.content .def:hover .img img {
+    padding-top: 31px;
+    transition: all 0.5s;
+}
+
+.contentCon {
+    padding-top: 50px;
+}
+
+.contentCon ul {
+    margin-left: -14px;
+}
+
+.contentCon ul .list {
+    position: relative;
+    float: left;
+    margin-left: 14px;
+    border-top: 1px solid #ffac13;
+    width: 296px;
+    height: 419px;
+    background: #fff;
+    text-align: center;
+}
+
+.contentCon ul .list:hover {
+    top: -1px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .5);
+    transition: all 0.4s;
+}
+
+.contentCon ul .list h3 {
+    padding: 50px 0 25px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.contentCon ul .list h4 {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.contentCon ul .list h4 a, .contentCon ul .list span a {
+    color: #333;
+}
+
+.contentCon ul .list p {
+    padding: 6px 50px 0;
+    height: 54px;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.contentCon ul .list p a {
+    color: #999;
+}
+
+.contentCon ul .list span {
+    display: block;
+}
+
+/*.contentCon ul .list span a{
+    color: #333;
+}*/
+.contentCon ul .list img {
+    width: 216px;
+    height: 154px;
+}
+
+.contentCon ul .list .cen {
+    width: 112px;
+    margin: 27px auto 0;
+}
+
+.contentCon ul .list ol {
+    margin-left: -24px;
+}
+
+.contentCon ul .list ol li {
+    float: left;
+    margin-left: 24px;
+    border: 2px solid #fff;
+    width: 6px;
+    height: 6px;
+    background: #b0b0b0;
+    border-radius: 6px;
+}
+
+.contentCon ul .list ol .on {
+    border: 2px solid #ff6700;
+    background: #fff;
+}
+
+.contentCon ul .list ol li:hover {
+    background: #ff6700;
+}
+
+.contentCon ul .list .btnL, .contentCon ul .list .btnR {
+    float: left;
+    opacity: 0;
+    margin-top: 190px;
+    width: 20px;
+    height: 48px;
+    line-height: 48px;
+    color: #fff;
+    background: #333;
+    font-size: 16px;
+    background: rgba(66, 66, 66, .2);
+}
+
+.contentCon ul .list .btnR {
+    float: right;
+}
+
+.contentCon ul .list .btnL:hover, .contentCon ul .list .btnR:hover {
+    transition: all 0.3s;
+    background: rgba(66, 66, 66, .8);
+    cursor: pointer;
+}
+
+.contentCon ul .list .btnR:hover {
+    cursor: default;
+}
+
+.contentCon ul .list:hover .btnL, .contentCon ul .list:hover .btnR {
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+.footer {
+    height: 272px;
+}
+
+.footerTop {
+    padding: 27px 3px 0;
+    border-bottom: 1px solid #000;
+    height: 52px;
+}
+
+.footerTop li {
+    float: left;
+    border-left: 1px solid #000;
+    height: 25px;
+    line-height: 25px;
+    width: 243px;
+    text-align: center;
+}
+
+.footerTop li span {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url("../images/icon3.png") no-repeat;
+    vertical-align: middle;
+}
+
+.footerTop li .list2 {
+    background-position: -45px 0;
+}
+
+.footerTop li .list3 {
+    background-position: -168px 0;
+}
+
+.footerTop li .list4 {
+    background-position: -129px 0;
+}
+
+.footerTop li .list5 {
+    background-position: -89px 0;
+}
+
+.footerTop li a {
+    font-size: 16px;
+    color: #333;
+}
+
+.footerTop .noBor {
+    border: 1px solid transparent;
+}
+
+.footerTop li a:hover {
+    color: #ff6700;
+    transition: all 0.5s;
+}
+
+.footerTop li a:hover .list1 {
+    background-position: 0 -64px;
+}
+
+.footerTop li a:hover .list2 {
+    background-position: -45px -64px;
+}
+
+.footerTop li a:hover .list3 {
+    background-position: -168px -63px;
+}
+
+.footerTop li a:hover .list4 {
+    background-position: -129px -63px;
+}
+
+.footerTop li a:hover .list5 {
+    background-position: -89px -63px;
+}
+
+.footerBom {
+    padding: 40px 0;
+    height: 112px;
+}
+
+.footerBom .footL {
+    float: left;
+}
+
+.footerBom .footL dl {
+    float: left;
+    width: 160px;
+}
+
+.footerBom .footL dl dt {
+    padding-bottom: 15px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #424242;
+}
+
+.footerBom .footL dl dd {
+    padding-top: 15px;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.footerBom .footL dl dd a {
+    color: #757575;
+}
+
+.footerBom .footL dl dd a:hover {
+    color: #ff6700;
+}
+
+.footerBom .tel {
+    float: left;
+    border-left: 1px solid #000;
+    padding-left: 58px;
+    width: 137px;
+    height: 112px;
+    text-align: center;
+}
+
+.footerBom .tel .title {
+    padding-bottom: 10px;
+    font-size: 22px;
+    line-height: 22px;
+    color: #ff6700;
+}
+
+.footerBom .tel .sum {
+    font-size: 12px;
+    color: #616161;
+}
+
+.footerBom .tel a {
+    margin-top: 15px;
+    display: inline-block;
+    border: 1px solid #ff6700;
+    width: 118px;
+    height: 28px;
+    line-height: 28px;
+    color: #ff6700;
+    font-size: 12px;
+}
+
+.footerBom .tel a span {
+    display: inline-block;
+    margin-right: 4px;
+    width: 11px;
+    height: 11px;
+    background: url("../images/icon3.png") no-repeat;
+    background-position: 0 -36px;
+    vertical-align: middle;
+}
+
+.footerBom .tel a:hover {
+    background: #ff6700;
+    color: #fff;
+}
+
+.footerBom .tel a:hover span {
+    background-position: -14px -36px;
+}
+
+.footerBg {
+    width: 100%;
+    min-width: 1226px;
+    padding-top: 30px;
+    height: 136px;
+    background: url("../images/slogan2016.png") no-repeat center 115px #ccc;
+}
+
+.footerBg .left {
+    float: left;
+    font-size: 12px;
+}
+
+.footerBg .left .logo {
+    float: left;
+    padding-right: 10px;
+    width: 57px;
+    height: 57px;
+}
+
+.footerBg .left .link {
+    width: 880px;
+}
+
+.footerBg .left .link a {
+    color: #757575;
+}
+
+.footerBg .left .link span {
+    color: #b0b0b0;
+}
+
+.footerBg .left .copy {
+    color: #b0b0b0;
+}
+
+.footerBg .left .copy a {
+    color: #b0b0b0;
+}
+
+.footerBg .left .link a:hover, .footerBg .left .copy a:hover {
+    color: #ff6700;
+}
+
+.footerBg .right {
+    float: right;
+}
+#head_hot_goods_wrap {
+    width: 1226px;
+    margin: 0 auto;
+    color: #424242;
+}
+
+#head_hot_goods_wrap #head_hot_goods_title {
+    width: 1226px;
+    height: 60px;
+    line-height: 60px;
+}
+
+#head_hot_goods_wrap #head_hot_goods_title .title_span {
+    font-size: 25px;
+    font-weight: 100;
+}
+
+#head_hot_goods_wrap #head_hot_goods_title #head_hot_goods_change {
+    width: 102px;
+    height: 25px;
+    float: right;
+    margin-top: 20px;
+    border: 1px solid #F0F0F0;
+    color: #BEBEBE;
+    line-height: 25px;
+    text-align: center;
+}
+
+#head_hot_goods_wrap #head_hot_goods_title #head_hot_goods_change #head_hot_goods_prave {
+    width: 50px;
+    height: 25px;
+    float: left;
+    font-size: 20px;
+    border-right: 1px solid #F0F0F0;
+    cursor: pointer;
+}
+
+#head_hot_goods_wrap #head_hot_goods_title #head_hot_goods_change #head_hot_goods_next {
+    width: 50px;
+    height: 25px;
+    float: right;
+    font-size: 20px;
+    border-right: 1px solid #F0F0F0;
+    cursor: pointer;
+}
+
+#head_hot_goods_wrap #head_hot_goods_content {
+    width: 1226px;
+    height: 345px;
+    overflow: hidden;
+    position: relative;
+}
+
+#head_hot_goods_wrap #head_hot_goods_content ul {
+    width: 2500px;
+    height: 300px;
+    position: absolute;
+    left: 0px;
+    overflow: hidden;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+#head_hot_goods_wrap #head_hot_goods_content ul li {
+    width: 237px;
+    height: 300px;
+    padding-top: 20px;
+    margin-right: 10px;
+    background: #fafafa;
+    float: left;
+    text-align: center;
+    border-top: 1px solid #FF6700;
+}
+
+#head_hot_goods_wrap #head_hot_goods_content ul li a {
+    display: block;
+}
+
+#head_hot_goods_wrap #head_hot_goods_content ul li a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#head_hot_goods_wrap #head_hot_goods_content ul li a:nth-child(2) {
+    margin: 15px auto;
+    font-size: 13px;
+    color: #333;
+}
+
+#head_hot_goods_wrap #head_hot_goods_content ul li a:nth-child(3) {
+    font-size: 12px;
+    color: #B0B0B0;
+}
